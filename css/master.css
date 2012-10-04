@@ -1,0 +1,77 @@
+body{
+	background:black;
+}
+
+a:hover{
+	color:white;
+	text-decoration: none;
+	background-color: #08c;
+}
+
+div.right_logo{
+	float:right;
+	margin-right:5px;
+	width:120px;
+}
+
+div.left_logo{
+	float:left;
+	margin-left:5px;
+	width:120px;
+}
+
+div#container{
+	top: 5%;
+	text-align: center;
+	position:relative;
+}
+
+div.left{
+	position: absolute;
+	left: 50%;
+	width: 400px;
+	margin-left: -400px;
+	border: 0px;
+	cursor: pointer;
+}
+
+div.right_text{
+	position:absolute;
+	margin-top:250px;
+	left:51%;
+	font-size: 14pt;
+}
+
+div.left_text{
+	position:absolute;
+	margin-top:250px;
+	left:51%;
+	margin-left: -200px;
+	font-size: 14pt;
+}
+
+div.left_text a {
+	color: white;
+}
+
+div.right_text a {
+	color: #5a5a5a;
+}
+
+div.right{
+	visibility: hidden;
+	position: absolute;
+	left: 50%;
+	width: 398px;
+	border: 0px;
+	cursor: pointer;
+}
+
+ul li{
+	list-style-type: none;
+	line-height: 1.5em;
+}
+
+div#left_menu{
+	line-height: 250px;
+}
