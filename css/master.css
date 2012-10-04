@@ -35,11 +35,31 @@ div.left{
 	cursor: pointer;
 }
 
+div.left_trees{
+	position: absolute;
+	left: 50%;
+	width: 600px;
+	margin-left: -600px;
+	border: 0px;
+	cursor: pointer;
+}
+
 div.right_text{
 	position:absolute;
 	margin-top:250px;
 	left:51%;
 	font-size: 14pt;
+}
+
+div.right_text_about_me{
+	position:absolute;
+	width: 30%;
+	line-height: 1.5em;
+	margin-top:100px;
+	left:51%;
+	text-align:left;
+	font-size: 14pt;
+	color: #B5B3B4;
 }
 
 div.left_text{
@@ -74,4 +94,8 @@ ul li{
 
 div#left_menu{
 	line-height: 250px;
+}
+
+div#about_me{
+	color:white;
 }
