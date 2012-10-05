@@ -1,5 +1,6 @@
 body{
 	background:black;
+	font-family: Helvectiva, Arial, Sans-Serif;
 }
 
 a:hover{
@@ -100,4 +101,12 @@ div#left_menu{
 
 div#about_me{
 	color:white;
+}
+
+div#contacts a{
+	color: gray;
+}
+
+.contacts_btn {
+	width: 50px;
 }
