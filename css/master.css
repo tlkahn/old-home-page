@@ -11,13 +11,14 @@ a:hover{
 div.right_logo{
 	float:right;
 	margin-top: 10px;
-	margin-right:5px;
+	margin-right:10px;
 	width:120px;
 }
 
 div.left_logo{
+	margin-top: 10px;
 	float:left;
-	margin-left:5px;
+	margin-left:10px;
 	width:120px;
 }
 
