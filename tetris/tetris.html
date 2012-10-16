@@ -1,0 +1,41 @@
+<head>
+<script src="jquery-1.6.4.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="javascripts/tetris.js"
+charset="utf-8"></script>
+<!-- <script type="text/javascript"
+src="http://code.jquery.com/qunit/git/qunit.js"></script> -->
+<link rel="stylesheet" href="css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<script type="text/javascript" charset="utf-8" src="jquery-1.6.4.min.js"></script>
+
+<style type="text/css" media="screen">
+	td.cell{
+		background-color : black;
+		border: 1px;
+	}
+        td.block{
+                background-color : yellow;
+                border: 1px
+        }
+
+        td.dead_block{
+                background-color : blue;
+                border: 1px
+        }
+</style>
+<link rel="stylesheet" href="http://code.jquery.com/qunit/git/qunit.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id="container">
+	<div id="frame"> </div>
+	<div class="side_bar" id="info">
+		<p>Up to rotate</p>
+		<p>Space to pause</p>
+		Current Score <span id="score"></span>
+		<p>Next</p>
+	</div>
+	<div id="next_block">
+
+	</div>
+</div>
+
+</body>

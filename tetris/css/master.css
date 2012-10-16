@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+table td{
+border: 0px solid #FF0000;
+}
+
+td.cell{
+background-color: black;
+}
+
+td.block{
+        background-color: yellow;
+        border: 0px
+}
+
+td.dead_block{
+        background-color: blue;
+        border: 0px
+}
+
+div#container{
+    position:relative;
+    width: 400px;
+    left:50%;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+
+div#frame{
+    float:left;
+}
+
+div#info{
+    line-height: 20px;
+    margin-top: 10px;
+    color:white;
+    float:right;
+    font-family: Courier, "Courier New", monospace;
+}
