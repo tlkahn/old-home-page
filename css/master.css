@@ -1,6 +1,6 @@
 body{
 	background:black;
-	font-family: Helvectiva, Arial, Sans-Serif;
+	font-family: Helvectiva, Arial, Sans-Serif !important;
 }
 
 a:hover{
@@ -24,7 +24,7 @@ div.left_logo{
 }
 
 div#container{
-	top: 5%;
+	top: 30px;
 	text-align: center;
 	position:relative;
 }
@@ -105,8 +105,17 @@ div#about_me{
 
 div#contacts a{
 	color: gray;
+	width: 100px;
 }
 
 .contacts_btn {
 	width: 50px;
+}
+
+div#showlist{
+    margin-top: 20px;
+}
+
+.showcase_profile{
+    color: #BCD4DE;
 }
