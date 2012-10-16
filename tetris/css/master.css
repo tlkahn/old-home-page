@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: Helvectica, Arial, Sans Serif !important;
 }
 table{
     border-collapse: collapse;
@@ -42,4 +43,13 @@ div#info{
     color:white;
     float:right;
     font-family: Courier, "Courier New", monospace;
+}
+
+div.side_bar{
+    top: 200px;
+}
+
+div#next_block{
+    top: 300px;
+    float: right;
 }
